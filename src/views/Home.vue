@@ -4,7 +4,7 @@
  * @Author: kurumi
  * @Date: 2020-10-20 10:37:54
  * @LastEditors: kurumi
- * @LastEditTime: 2020-11-18 16:19:04
+ * @LastEditTime: 2020-11-18 20:27:56
 -->
 <template>
   <div class="home">
@@ -23,7 +23,6 @@ import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
 export default class Home extends Vue {
   created() {
     console.log('x')
-    //
   }
 }
 </script>

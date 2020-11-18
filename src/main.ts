@@ -4,7 +4,7 @@
  * @Author: kurumi
  * @Date: 2020-10-20 10:37:54
  * @LastEditors: kurumi
- * @LastEditTime: 2020-10-27 16:29:33
+ * @LastEditTime: 2020-11-18 20:33:38
  */
 import { createApp } from 'vue'
 import App from './App.vue'

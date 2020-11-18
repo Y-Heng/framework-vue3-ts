@@ -4,7 +4,7 @@
  * @Author: kurumi
  * @Date: 2020-10-20 10:37:54
  * @LastEditors: kurumi
- * @LastEditTime: 2020-11-18 18:31:12
+ * @LastEditTime: 2020-11-18 20:33:53
 -->
 <template>
   <div id="nav">
@@ -21,21 +21,20 @@
 </template>
 
 <script lang="ts">
-import { ref } from 'vue'
-import { Options, Vue } from 'vue-class-component'
 import VueParticles from 'vue-particles'
+import { defineComponent, ref, createApp } from 'vue'
 
-@Options({
-  components: { VueParticles }
-})
-export default class Home extends Vue {
+const app = createApp({})
+app.use(VueParticles)
+
+export default defineComponent({
   setup() {
-    const x = ref('111')
     console.log('setup')
+
+    const x = ref('111')
     return { x }
   }
-  //
-}
+})
 </script>
 
 <style lang="scss">
